@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sleeper"
+version = "0.1.0"
+description = "Sleeper is a thing that turns your computer off when you want."
+authors = ["Sascena"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyqt6 = "^6.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
