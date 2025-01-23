@@ -36,7 +36,10 @@ def WhatToDo(os_type) -> str:
     if application.ui.RB_reboot.isChecked():
         wtd = "-r"
     elif application.ui.RB_turn_off.isChecked():
-        wtd = "-s"
+        if os_type == "win":
+            wtd = "-s"
+        else:
+            wtd = ""
     elif application.ui.RB_logout.isChecked():
         if os_type == "win":
             wtd = "-l"
