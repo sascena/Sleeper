@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'sonSason.ui'
+# Form implementation generated from reading ui file 'SonSason.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -142,5 +142,5 @@ class Ui_MainWindow(object):
         self.RB_rn.setText(_translate("MainWindow", "сейчас"))
         self.Time.setDisplayFormat(_translate("MainWindow", "hh:mm:ss"))
         self.label_2.setText(_translate("MainWindow", "Текущее время"))
-        self.Time_rn.setDisplayFormat(_translate("MainWindow", "dd.mm.yyyy hh:mm:ss"))
+        self.Time_rn.setDisplayFormat(_translate("MainWindow", "dd.MM.yyyy hh:mm:ss"))
         self.Button_apply.setText(_translate("MainWindow", "Применить"))
